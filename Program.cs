@@ -9,5 +9,6 @@ public class Program
         // SOLID
         SingleResponsibilityPrinciple.RunDemo();
         OpenClosedPrinciple.RunDemo();
+        LiskovSubstitutionPrinciple.RunDemo();
     }
 }

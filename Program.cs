@@ -10,5 +10,6 @@ public class Program
         SingleResponsibilityPrinciple.RunDemo();
         OpenClosedPrinciple.RunDemo();
         LiskovSubstitutionPrinciple.RunDemo();
+        InterfaceSegregationPrinciple.RunDemo();
     }
 }

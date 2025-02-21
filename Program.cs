@@ -11,5 +11,6 @@ public class Program
         OpenClosedPrinciple.RunDemo();
         LiskovSubstitutionPrinciple.RunDemo();
         InterfaceSegregationPrinciple.RunDemo();
+        DependencyInversionPrinciple.RunDemo();
     }
 }

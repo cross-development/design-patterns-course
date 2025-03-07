@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Solid;
+using DesignPatterns.Builder;
 
 namespace DesignPatterns;
 
@@ -12,5 +13,9 @@ public class Program
         LiskovSubstitutionPrinciple.RunDemo();
         InterfaceSegregationPrinciple.RunDemo();
         DependencyInversionPrinciple.RunDemo();
+
+        // Builder
+        LifeWithoutBuilder.RunDemo();
+        HtmlBuilderDemo.RunDemo();
     }
 }

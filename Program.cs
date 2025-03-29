@@ -17,5 +17,9 @@ public class Program
         // Builder
         LifeWithoutBuilder.RunDemo();
         HtmlBuilderDemo.RunDemo();
+        FluentBuilder.RunDemo();
+        StepwiseBuilder.RunDemo();
+        FunctionalBuilder.RunDemo();
+        FacetedBuilder.RunDemo();
     }
 }

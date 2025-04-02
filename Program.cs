@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Solid;
 using DesignPatterns.Builder;
+using DesignPatterns.Factories;
 
 namespace DesignPatterns;
 
@@ -21,5 +22,15 @@ public class Program
         StepwiseBuilder.RunDemo();
         FunctionalBuilder.RunDemo();
         FacetedBuilder.RunDemo();
+
+        // Factories
+        PointExample.RunDemo();
+        FactoryMethod.RunDemo();
+        AsynchronousFactoryMethod.RunDemo();
+        Factory.RunDemo();
+        ObjectTracking.RunDemo();
+        InnerFactory.RunDemo();
+        AbstractFactory.RunDemo();
+        AbstractFactoryOcp.RunDemo();
     }
 }

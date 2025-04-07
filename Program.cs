@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Solid;
 using DesignPatterns.Builder;
 using DesignPatterns.Factories;
+using DesignPatterns.Prototype;
 
 namespace DesignPatterns;
 
@@ -15,6 +16,7 @@ public class Program
         InterfaceSegregationPrinciple.RunDemo();
         DependencyInversionPrinciple.RunDemo();
 
+        // DESIGN PATTERNS
         // Builder
         LifeWithoutBuilder.RunDemo();
         HtmlBuilderDemo.RunDemo();
@@ -32,5 +34,12 @@ public class Program
         InnerFactory.RunDemo();
         AbstractFactory.RunDemo();
         AbstractFactoryOcp.RunDemo();
+
+        // Prototype
+        ICloneableIsBad.RunDemo();
+        CopyConstructors.RunDemo();
+        ExplicitDeepCope.RunDemo();
+        PrototypeInheritance.RunDemo();
+        CopyThroughSerialization.RunDemo();
     }
 }

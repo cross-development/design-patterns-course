@@ -2,6 +2,7 @@
 using DesignPatterns.Builder;
 using DesignPatterns.Factories;
 using DesignPatterns.Prototype;
+using DesignPatterns.Singleton;
 
 namespace DesignPatterns;
 
@@ -41,5 +42,8 @@ public class Program
         ExplicitDeepCope.RunDemo();
         PrototypeInheritance.RunDemo();
         CopyThroughSerialization.RunDemo();
+
+        // Singleton
+        SingletonImpl.RunDemo();
     }
 }

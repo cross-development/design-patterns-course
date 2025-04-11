@@ -45,5 +45,7 @@ public class Program
 
         // Singleton
         SingletonImpl.RunDemo();
+        SingletonDI.RunDemo();
+        Monostate.RunDemo();
     }
 }
